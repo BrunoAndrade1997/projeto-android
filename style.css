@@ -33,7 +33,7 @@ header {
     background-image: linear-gradient(var(--cor4), var(--cor5));
     color: white;
     min-height: 100px;
-    padding-top: 20px;
+    padding-top: 30px;
     text-shadow: 0.1em 0.1em black;
 }
 
@@ -47,6 +47,7 @@ header > h1 {
 header > p {
     font-size: 1.1em;
     text-align: center;
+    padding: 10px 0px;
 }
 
 nav {
@@ -71,7 +72,7 @@ nav a:hover {
 main {
     background-color: white;
     border-radius: 0px 0px 10px 10px;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 1000px;
     margin: auto;
     padding: 20px;
@@ -104,6 +105,13 @@ main h1, h2 {
 
 main h1 {
     font-size: 1.7em;
+}
+
+main > p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.6em;
 }
 
 main a:hover {
@@ -150,13 +158,6 @@ footer a {
 
 h2 {
     background-image: linear-gradient(to left, var(--cor1), transparent);
-}
-
-p {
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 30px;
-    line-height: 1.6em;
 }
 
 strong {
